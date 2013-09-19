@@ -1,0 +1,4 @@
+block('example').content()(function() {
+
+	return { block: 'line', content: this.ctx.content }
+});

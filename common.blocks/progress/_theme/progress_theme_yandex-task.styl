@@ -1,0 +1,56 @@
+.progress_theme_yandex-task
+	background: url('progress_theme_yandex-task_bg.png') 0 -26px repeat-x
+	height: 13px
+	line-height: 13px
+	margin: 0 6px
+
+	.progress__text
+		font-size: 9px
+		font-family: Verdana
+		padding: 0 20px
+		vertical-align: top
+
+	&:before
+		position: absolute
+		top: 0
+		left: -6px
+		width: 7px
+		height: 13px
+		background: transparent url('progress_theme_yandex-task_bg.png') no-repeat
+		content: ''
+
+	&:after
+		position: absolute
+		top: 0
+		right: -6px
+		width: 7px
+		height: 13px
+		background: transparent url('progress_theme_yandex-task_bg.png') 0 -13px no-repeat
+		content: ''
+
+	.progress__bar
+		height: 13px
+		background: url('progress__bar_theme_yandex-task.png') 0 -26px repeat-x
+		z-index: 2
+		left: -6px
+		margin: 0 6px
+
+		&:before
+			position: absolute
+			top: 0
+			left: 0
+			width: 6px
+			height: 13px
+			background: transparent url('progress__bar_theme_yandex-task.png') no-repeat
+			content: ''
+			margin-left: -6px
+
+		&:after
+			position: absolute
+			top: 0
+			right: 0
+			width: 6px
+			height: 13px
+			background: transparent url('progress__bar_theme_yandex-task.png') 0 -13px no-repeat
+			content: ''
+			margin-right: -6px

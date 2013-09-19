@@ -1,0 +1,10 @@
+.bem/cache
+node_modules
+libs
+
+desktop.bundles/*/*
+!desktop.bundles/.bem/
+!desktop.bundles/button/button.bemjson.js
+!desktop.bundles/progress/progress.bemjson.js
+!desktop.bundles/rating/rating.bemjson.js
+!desktop.bundles/task/task.bemjson.js

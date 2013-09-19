@@ -1,0 +1,6 @@
+block('row').elem('item')
+	.match(this.ctx.elemMods && this.ctx.elemMods.theme && this.ctx.elemMods.theme === 'centred-island' )
+	.content()(function() {
+
+		return { block: 'island', content: this.ctx.content }
+	});

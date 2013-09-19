@@ -1,0 +1,43 @@
+.progress_theme_yandex-task
+	*z-index: unquote('expression(runtimeStyle.zIndex = 1,this.insertBefore(document.createElement("div"),this.childNodes[0]).className="progress__before_theme_yandex-task",this.appendChild(document.createElement("div")).className="progress__after_theme_yandex-task")')
+
+.progress__before_theme_yandex-task
+	position: absolute
+	top: 0
+	left: -6px
+	width: 7px
+	height: 13px
+	background: transparent url('progress_theme_yandex-task_bg.png') no-repeat
+
+.progress__after_theme_yandex-task
+	position: absolute
+	top: 0
+	right: -6px
+	width: 7px
+	height: 13px
+	background: transparent url('progress_theme_yandex-task_bg.png') 0 -13px no-repeat
+
+.progress_theme_yandex-task
+	.progress__bar
+		*z-index: unquote('expression(runtimeStyle.zIndex = 2,this.appendChild(document.createElement("div")).className="progress__bar-before_theme_yandex-task",this.appendChild(document.createElement("div")).className="progress__bar-after_theme_yandex-task")')
+
+
+.progress__bar-before_theme_yandex-task
+	position: absolute
+	top: 0
+	left: 0
+	width: 6px
+	height: 13px
+	background: transparent url('progress__bar_theme_yandex-task.png') no-repeat
+	margin-left: -6px
+	z-index: 3
+
+.progress__bar-after_theme_yandex-task
+	position: absolute
+	top: 0
+	right: 0
+	width: 6px
+	height: 13px
+	background: transparent url('progress__bar_theme_yandex-task.png') 0 -13px no-repeat
+	margin-right: -6px
+	z-index: 4

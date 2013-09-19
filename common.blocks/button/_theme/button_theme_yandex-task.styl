@@ -1,0 +1,48 @@
+.button_theme_yandex-task, .button__content, .button__left
+	background: url('button_theme_yandex-task.png')
+
+.button_theme_yandex-task
+	height: 24px
+	line-height: 24px
+	background-position: 100% -48px
+	background-repeat: no-repeat
+
+	.button_hovered&
+		background-position: 100% -192px
+
+	.button_focused&
+		background-position: 100% -264px
+	.button_pressed&
+		background-position: 100% -120px
+
+	.button__text
+		font-size: 11px
+		font-family: Verdana
+		text-shadow: 1px 1px 1px #fff
+
+	.button__content
+		margin: 0 12px
+		background-position:  0 -24px
+		background-repeat: repeat-x
+
+		.button_hovered&
+			background-position: 0 -168px
+
+		.button_focused&
+			background-position: 0 -240px
+
+		.button_pressed&
+			background-position: 0 -96px
+
+	.button__left
+		width: 12px
+		margin-right: -12px
+
+		.button_hovered&
+			background-position: 0 -144px
+
+		.button_focused&
+			background-position: 0 -216px
+
+		.button_pressed&
+			background-position: 0 -72px

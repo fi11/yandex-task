@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "name": "bem-project-stub",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem/project-stub.git"
+  },
+  "engines": {
+    "node": "0.6 | 0.8 | 0.10"
+  },
+  "dependencies": {
+    "bem" : "~0.6.4",
+    "bem-environ" : "~1.0.1",
+    "stylus" : "~0.35.1",
+    "nib" : "~0.9.2",
+    "q" : "~0.9.6"
+  },
+  "devDependencies": {},
+  "private": true
+}
