@@ -1,7 +1,9 @@
 .bem/cache
 node_modules
 libs
+.borschik
 
+static/*
 desktop.bundles/*/*
 !desktop.bundles/.bem/
 !desktop.bundles/button/button.bemjson.js
