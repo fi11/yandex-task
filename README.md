@@ -4,7 +4,7 @@
 *Задание сделано с использованием BEM и библиотек bem-core, bem-components@v2.*
 *Блоки rating и progress были выделены в общую библиотеку для дальнейшего реиспользования*
 
-Live Example (http://pavelsilinw.github.io/yandex-task/)[http://pavelsilinw.github.io/yandex-task/]
+Live Example [http://pavelsilinw.github.io/yandex-task/](http://pavelsilinw.github.io/yandex-task/)
 
 Блок rating
 -----------
